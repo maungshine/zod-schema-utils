@@ -1,5 +1,5 @@
 {
-  "name": "zod-utils",
+  "name": "zod-schema-utils",
   "version": "1.0.0",
   "description": "Reusable Zod schema utility functions for JavaScript.",
   "main": "src/index.js",
