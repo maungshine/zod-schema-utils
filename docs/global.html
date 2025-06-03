@@ -1,23 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="utf-8">
-    <title>JSDoc: Global</title>
-
-    <script src="scripts/prettify/prettify.js"> </script>
-    <script src="scripts/prettify/lang-css.js"> </script>
+    <title>Global - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
-    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
 <body>
 
-<div id="main">
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
 
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    
+    <h2><a href="index.html">Home</a></h2><h3>Global</h3><ul><li><a href="global.html#createZodSchema">createZodSchema</a></li><li><a href="global.html#enumWithMessage">enumWithMessage</a></li><li><a href="global.html#isoDate">isoDate</a></li><li><a href="global.html#optionalNullable">optionalNullable</a></li><li><a href="global.html#parsedDate">parsedDate</a></li><li><a href="global.html#positiveNumber">positiveNumber</a></li><li><a href="global.html#rangedNumber">rangedNumber</a></li><li><a href="global.html#trimmedString">trimmedString</a></li></ul>
+    
+</nav>
+
+<div id="main">
+    
     <h1 class="page-title">Global</h1>
+    
 
     
 
@@ -28,20 +47,23 @@
 
 <header>
     
-        <h2></h2>
+        <h2>
+        
+            
+        
+        </h2>
         
     
 </header>
 
 <article>
-    <div class="container-overview">
     
+        <div class="container-overview">
         
-
-        
-
+            
 
 <dl class="details">
+    
 
     
 
@@ -77,10 +99,13 @@
 </dl>
 
 
+
+
+            
+
+            
         
-    
-    </div>
-
+        </div>
     
 
     
@@ -88,8 +113,10 @@
     
 
     
-
     
+    
+
+     
 
     
 
@@ -103,17 +130,56 @@
 
     
 
-    
     <h4 class="name" id="createZodSchema"><span class="type-signature"></span>createZodSchema<span class="signature">(shape)</span><span class="type-signature"> &rarr; {z.ZodObject}</span></h4>
-    
 
     
 
 
 
-<div class="description">
-    Creates a Zod object schema from a shape object.
-</div>
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li>Creates a Zod object schema from a shape object.</li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="zodObjectUtils.js.html">zodObjectUtils.js</a>, <a href="zodObjectUtils.js.html#line8">line 8</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
 
 
 
@@ -123,7 +189,11 @@
 
 
 
-    <h5>Parameters:</h5>
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
     
 
 <table class="params">
@@ -157,6 +227,7 @@
 <span class="param-type">Object</span>
 
 
+
             
             </td>
 
@@ -176,45 +247,6 @@
 
 
 
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="zodObjectUtils.js.html">zodObjectUtils.js</a>, <a href="zodObjectUtils.js.html#line8">line 8</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
 
 
 
@@ -225,12 +257,7 @@
 
 
 
-
-
-
-
-
-<h5>Returns:</h5>
+<h5 class="h5-returns">Returns:</h5>
 
         
 <div class="param-desc">
@@ -239,13 +266,14 @@
 
 
 
-<dl>
+<dl class="param-type">
     <dt>
         Type
     </dt>
     <dd>
         
 <span class="param-type">z.ZodObject</span>
+
 
 
     </dd>
@@ -255,24 +283,61 @@
 
 
 
-
-
         
             
 
     
 
-    
     <h4 class="name" id="enumWithMessage"><span class="type-signature"></span>enumWithMessage<span class="signature">(values, errorMessage)</span><span class="type-signature"> &rarr; {z.ZodEnum}</span></h4>
-    
 
     
 
 
 
-<div class="description">
-    Creates a Zod enum with custom error message.
-</div>
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li>Creates a Zod enum with custom error message.</li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="zodEnumUtils.js.html">zodEnumUtils.js</a>, <a href="zodEnumUtils.js.html#line9">line 9</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
 
 
 
@@ -282,7 +347,11 @@
 
 
 
-    <h5>Parameters:</h5>
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
     
 
 <table class="params">
@@ -316,6 +385,7 @@
 <span class="param-type">Array.&lt;string></span>
 
 
+
             
             </td>
 
@@ -339,6 +409,7 @@
 <span class="param-type">string</span>
 
 
+
             
             </td>
 
@@ -358,45 +429,6 @@
 
 
 
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="zodEnumUtils.js.html">zodEnumUtils.js</a>, <a href="zodEnumUtils.js.html#line9">line 9</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
 
 
 
@@ -407,23 +439,19 @@
 
 
 
-
-
-
-
-
-<h5>Returns:</h5>
+<h5 class="h5-returns">Returns:</h5>
 
         
 
 
-<dl>
+<dl class="param-type">
     <dt>
         Type
     </dt>
     <dd>
         
 <span class="param-type">z.ZodEnum</span>
+
 
 
     </dd>
@@ -433,24 +461,61 @@
 
 
 
-
-
         
             
 
     
 
-    
     <h4 class="name" id="isoDate"><span class="type-signature"></span>isoDate<span class="signature">(options)</span><span class="type-signature"> &rarr; {z.ZodDate}</span></h4>
-    
 
     
 
 
 
-<div class="description">
-    Creates a Zod date schema that validates a date string in ISO format.
-</div>
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li>Creates a Zod date schema that validates a date string in ISO format.</li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="zodDateUtils.js.html">zodDateUtils.js</a>, <a href="zodDateUtils.js.html#line32">line 32</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
 
 
 
@@ -460,7 +525,11 @@
 
 
 
-    <h5>Parameters:</h5>
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
     
 
 <table class="params">
@@ -492,6 +561,7 @@
             
                 
 <span class="param-type">Object</span>
+
 
 
             
@@ -540,6 +610,7 @@
 <span class="param-type">boolean</span>
 
 
+
             
             </td>
 
@@ -558,7 +629,7 @@
             
                 <td class="default">
                 
-                    false
+                    <code>false</code>
                 
                 </td>
             
@@ -579,6 +650,7 @@
 <span class="param-type">boolean</span>
 
 
+
             
             </td>
 
@@ -597,7 +669,7 @@
             
                 <td class="default">
                 
-                    false
+                    <code>false</code>
                 
                 </td>
             
@@ -621,45 +693,6 @@
 
 
 
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="zodDateUtils.js.html">zodDateUtils.js</a>, <a href="zodDateUtils.js.html#line32">line 32</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
 
 
 
@@ -670,23 +703,19 @@
 
 
 
-
-
-
-
-
-<h5>Returns:</h5>
+<h5 class="h5-returns">Returns:</h5>
 
         
 
 
-<dl>
+<dl class="param-type">
     <dt>
         Type
     </dt>
     <dd>
         
 <span class="param-type">z.ZodDate</span>
+
 
 
     </dd>
@@ -696,24 +725,61 @@
 
 
 
-
-
         
             
 
     
 
-    
     <h4 class="name" id="optionalNullable"><span class="type-signature"></span>optionalNullable<span class="signature">(schema, options)</span><span class="type-signature"> &rarr; {z.ZodTypeAny}</span></h4>
-    
 
     
 
 
 
-<div class="description">
-    Wraps a Zod schema to be optional and/or nullable.
-</div>
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li>Wraps a Zod schema to be optional and/or nullable.</li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="zodCommonUtils.js.html">zodCommonUtils.js</a>, <a href="zodCommonUtils.js.html#line11">line 11</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
 
 
 
@@ -723,7 +789,11 @@
 
 
 
-    <h5>Parameters:</h5>
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
     
 
 <table class="params">
@@ -757,6 +827,7 @@
 <span class="param-type">z.ZodTypeAny</span>
 
 
+
             
             </td>
 
@@ -780,6 +851,7 @@
 <span class="param-type">Object</span>
 
 
+
             
             </td>
 
@@ -826,6 +898,7 @@
 <span class="param-type">boolean</span>
 
 
+
             
             </td>
 
@@ -844,7 +917,7 @@
             
                 <td class="default">
                 
-                    false
+                    <code>false</code>
                 
                 </td>
             
@@ -865,6 +938,7 @@
 <span class="param-type">boolean</span>
 
 
+
             
             </td>
 
@@ -883,7 +957,7 @@
             
                 <td class="default">
                 
-                    false
+                    <code>false</code>
                 
                 </td>
             
@@ -907,45 +981,6 @@
 
 
 
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="zodCommonUtils.js.html">zodCommonUtils.js</a>, <a href="zodCommonUtils.js.html#line11">line 11</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
 
 
 
@@ -956,23 +991,19 @@
 
 
 
-
-
-
-
-
-<h5>Returns:</h5>
+<h5 class="h5-returns">Returns:</h5>
 
         
 
 
-<dl>
+<dl class="param-type">
     <dt>
         Type
     </dt>
     <dd>
         
 <span class="param-type">z.ZodTypeAny</span>
+
 
 
     </dd>
@@ -982,218 +1013,22 @@
 
 
 
-
-
         
             
 
     
 
-    
     <h4 class="name" id="parsedDate"><span class="type-signature"></span>parsedDate<span class="signature">(options)</span><span class="type-signature"> &rarr; {z.ZodDate}</span></h4>
-    
 
     
-
-
-
-<div class="description">
-    Parses string or number input into a Date object, validates it.
-</div>
-
-
-
-
-
-
-
-
-
-    <h5>Parameters:</h5>
-    
-
-<table class="params">
-    <thead>
-    <tr>
-        
-        <th>Name</th>
-        
-
-        <th>Type</th>
-
-        
-
-        
-
-        <th class="last">Description</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    
-
-        <tr>
-            
-                <td class="name"><code>options</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">Object</span>
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last">
-                <h6>Properties</h6>
-                
-
-<table class="params">
-    <thead>
-    <tr>
-        
-        <th>Name</th>
-        
-
-        <th>Type</th>
-
-        
-        <th>Attributes</th>
-        
-
-        
-        <th>Default</th>
-        
-
-        <th class="last">Description</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    
-
-        <tr>
-            
-                <td class="name"><code>optional</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">boolean</span>
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-                    &lt;optional><br>
-                
-
-                
-
-                
-                </td>
-            
-
-            
-                <td class="default">
-                
-                    false
-                
-                </td>
-            
-
-            <td class="description last"></td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>nullable</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">boolean</span>
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-                    &lt;optional><br>
-                
-
-                
-
-                
-                </td>
-            
-
-            
-                <td class="default">
-                
-                    false
-                
-                </td>
-            
-
-            <td class="description last"></td>
-        </tr>
-
-    
-    </tbody>
-</table>
-
-            </td>
-        </tr>
-
-    
-    </tbody>
-</table>
-
-
 
 
 
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li>Parses string or number input into a Date object, validates it.</li></ul></dd>
     
 
     
@@ -1208,6 +1043,30 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
 
 
@@ -1222,20 +1081,193 @@
 
 
 
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>options</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Object</span>
 
 
-<h5>Returns:</h5>
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">
+                <h6>Properties</h6>
+                
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>optional</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>false</code>
+                
+                </td>
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>nullable</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>false</code>
+                
+                </td>
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+            </td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
 
         
 
 
-<dl>
+<dl class="param-type">
     <dt>
         Type
     </dt>
     <dd>
         
 <span class="param-type">z.ZodDate</span>
+
 
 
     </dd>
@@ -1245,24 +1277,61 @@
 
 
 
-
-
         
             
 
     
 
-    
     <h4 class="name" id="positiveNumber"><span class="type-signature"></span>positiveNumber<span class="signature">(options<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {z.ZodNumber}</span></h4>
-    
 
     
 
 
 
-<div class="description">
-    Returns a Zod number schema that allows only positive numbers.
-</div>
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li>Returns a Zod number schema that allows only positive numbers.</li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="zodNumberUtils.js.html">zodNumberUtils.js</a>, <a href="zodNumberUtils.js.html#line11">line 11</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
 
 
 
@@ -1272,7 +1341,11 @@
 
 
 
-    <h5>Parameters:</h5>
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
     
 
 <table class="params">
@@ -1306,6 +1379,7 @@
             
                 
 <span class="param-type">Object</span>
+
 
 
             
@@ -1364,6 +1438,7 @@
 <span class="param-type">boolean</span>
 
 
+
             
             </td>
 
@@ -1382,7 +1457,7 @@
             
                 <td class="default">
                 
-                    false
+                    <code>false</code>
                 
                 </td>
             
@@ -1403,6 +1478,7 @@
 <span class="param-type">boolean</span>
 
 
+
             
             </td>
 
@@ -1421,7 +1497,7 @@
             
                 <td class="default">
                 
-                    false
+                    <code>false</code>
                 
                 </td>
             
@@ -1445,45 +1521,6 @@
 
 
 
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="zodNumberUtils.js.html">zodNumberUtils.js</a>, <a href="zodNumberUtils.js.html#line11">line 11</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
 
 
 
@@ -1494,12 +1531,7 @@
 
 
 
-
-
-
-
-
-<h5>Returns:</h5>
+<h5 class="h5-returns">Returns:</h5>
 
         
 <div class="param-desc">
@@ -1508,13 +1540,14 @@
 
 
 
-<dl>
+<dl class="param-type">
     <dt>
         Type
     </dt>
     <dd>
         
 <span class="param-type">z.ZodNumber</span>
+
 
 
     </dd>
@@ -1524,24 +1557,61 @@
 
 
 
-
-
         
             
 
     
 
-    
     <h4 class="name" id="rangedNumber"><span class="type-signature"></span>rangedNumber<span class="signature">(min<span class="signature-attributes">opt</span>, max<span class="signature-attributes">opt</span>, options<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {z.ZodNumber}</span></h4>
-    
 
     
 
 
 
-<div class="description">
-    Returns a Zod number schema with optional min and max constraints.
-</div>
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li>Returns a Zod number schema with optional min and max constraints.</li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="zodNumberUtils.js.html">zodNumberUtils.js</a>, <a href="zodNumberUtils.js.html#line28">line 28</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
 
 
 
@@ -1551,7 +1621,11 @@
 
 
 
-    <h5>Parameters:</h5>
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
     
 
 <table class="params">
@@ -1587,6 +1661,7 @@
 <span class="param-type">number</span>
 
 
+
             
             </td>
 
@@ -1620,6 +1695,7 @@
 <span class="param-type">number</span>
 
 
+
             
             </td>
 
@@ -1651,6 +1727,7 @@
             
                 
 <span class="param-type">Object</span>
+
 
 
             
@@ -1709,6 +1786,7 @@
 <span class="param-type">boolean</span>
 
 
+
             
             </td>
 
@@ -1727,7 +1805,7 @@
             
                 <td class="default">
                 
-                    false
+                    <code>false</code>
                 
                 </td>
             
@@ -1748,6 +1826,7 @@
 <span class="param-type">boolean</span>
 
 
+
             
             </td>
 
@@ -1766,7 +1845,7 @@
             
                 <td class="default">
                 
-                    false
+                    <code>false</code>
                 
                 </td>
             
@@ -1790,45 +1869,6 @@
 
 
 
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="zodNumberUtils.js.html">zodNumberUtils.js</a>, <a href="zodNumberUtils.js.html#line28">line 28</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
 
 
 
@@ -1839,12 +1879,7 @@
 
 
 
-
-
-
-
-
-<h5>Returns:</h5>
+<h5 class="h5-returns">Returns:</h5>
 
         
 <div class="param-desc">
@@ -1853,13 +1888,14 @@
 
 
 
-<dl>
+<dl class="param-type">
     <dt>
         Type
     </dt>
     <dd>
         
 <span class="param-type">z.ZodNumber</span>
+
 
 
     </dd>
@@ -1869,24 +1905,61 @@
 
 
 
-
-
         
             
 
     
 
-    
     <h4 class="name" id="trimmedString"><span class="type-signature"></span>trimmedString<span class="signature">(options)</span><span class="type-signature"> &rarr; {z.ZodString}</span></h4>
-    
 
     
 
 
 
-<div class="description">
-    Returns a trimmed string schema that converts empty strings to undefined.
-</div>
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li>Returns a trimmed string schema that converts empty strings to undefined.</li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="zodStringUtils.js.html">zodStringUtils.js</a>, <a href="zodStringUtils.js.html#line10">line 10</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
 
 
 
@@ -1896,7 +1969,11 @@
 
 
 
-    <h5>Parameters:</h5>
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
     
 
 <table class="params">
@@ -1928,6 +2005,7 @@
             
                 
 <span class="param-type">Object</span>
+
 
 
             
@@ -1976,6 +2054,7 @@
 <span class="param-type">boolean</span>
 
 
+
             
             </td>
 
@@ -1994,7 +2073,7 @@
             
                 <td class="default">
                 
-                    false
+                    <code>false</code>
                 
                 </td>
             
@@ -2015,6 +2094,7 @@
 <span class="param-type">boolean</span>
 
 
+
             
             </td>
 
@@ -2033,7 +2113,7 @@
             
                 <td class="default">
                 
-                    false
+                    <code>false</code>
                 
                 </td>
             
@@ -2057,45 +2137,6 @@
 
 
 
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="zodStringUtils.js.html">zodStringUtils.js</a>, <a href="zodStringUtils.js.html#line10">line 10</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
 
 
 
@@ -2106,17 +2147,12 @@
 
 
 
-
-
-
-
-
-<h5>Returns:</h5>
+<h5 class="h5-returns">Returns:</h5>
 
         
 
 
-<dl>
+<dl class="param-type">
     <dt>
         Type
     </dt>
@@ -2125,12 +2161,11 @@
 <span class="param-type">z.ZodString</span>
 
 
+
     </dd>
 </dl>
 
     
-
-
 
 
 
@@ -2147,19 +2182,21 @@
 
 
 
+    
+    
 </div>
-
-<nav>
-    <h2><a href="index.html">Home</a></h2><h3>Global</h3><ul><li><a href="global.html#createZodSchema">createZodSchema</a></li><li><a href="global.html#enumWithMessage">enumWithMessage</a></li><li><a href="global.html#isoDate">isoDate</a></li><li><a href="global.html#optionalNullable">optionalNullable</a></li><li><a href="global.html#parsedDate">parsedDate</a></li><li><a href="global.html#positiveNumber">positiveNumber</a></li><li><a href="global.html#rangedNumber">rangedNumber</a></li><li><a href="global.html#trimmedString">trimmedString</a></li></ul>
-</nav>
 
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.4</a> on Tue Jun 03 2025 21:46:26 GMT+0630 (Myanmar Time)
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.4</a> on Tue Jun 03 2025 22:28:03 GMT+0630 (Myanmar Time) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
 </footer>
 
-<script> prettyPrint(); </script>
-<script src="scripts/linenumber.js"> </script>
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+
+
 </body>
 </html>
