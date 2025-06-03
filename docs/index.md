@@ -12,6 +12,10 @@ npm install zod-utils-js
 
 > Note: Make sure `zod` is also installed as a peer dependency if not already.
 
+```bash
+npm install zod
+```
+
 ---
 
 ## 📘 API Reference
