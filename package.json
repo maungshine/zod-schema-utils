@@ -1,0 +1,29 @@
+{
+  "name": "zod-utils",
+  "version": "1.0.0",
+  "description": "Reusable Zod schema utility functions for JavaScript.",
+  "main": "src/index.js",
+  "type": "module",
+  "keywords": [
+    "zod",
+    "validation",
+    "schema",
+    "utils"
+  ],
+  "author": "Maung Shine",
+  "license": "MIT",
+  "dependencies": {
+    "zod": "^3.22.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maungshine/zod-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maungshine/zod-utils/issues"
+  },
+  "homepage": "https://github.com/maungshine/zod-utils#readme"
+}
