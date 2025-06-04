@@ -1,6 +1,6 @@
 {
   "name": "zod-schema-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Reusable Zod schema utility functions for JavaScript.",
   "main": "src/index.js",
   "type": "module",
