@@ -1,5 +1,5 @@
 
-# zod-utils
+# zod-schema-utils
 
 Reusable utility functions for building and validating Zod schemas in JavaScript.
 
@@ -13,7 +13,7 @@ Reusable utility functions for building and validating Zod schemas in JavaScript
 ## 📦 Installation
 
 ```bash
-npm install zod-utils
+npm install zod-schema-utils
 ```
 
 > Make sure `zod` is installed if it’s not already.
@@ -21,7 +21,7 @@ npm install zod-utils
 ## 📚 Usage
 
 ```js
-import { createZodSchema, positiveNumber, rangedNumber } from 'zod-utils';
+import { createZodSchema, positiveNumber, rangedNumber } from 'zod-schema-utils';
 
 const schema = createZodSchema({
   age: positiveNumber(),
@@ -44,21 +44,6 @@ Returns a Zod number schema that only allows positive numbers.
 ### `rangedNumber(min?: number, max?: number): ZodNumber`
 
 Returns a Zod number schema with optional `min` and `max` range.
-
-## 🛠️ Development
-
-To run locally:
-
-```bash
-npm install
-```
-
-To publish (CI handles this):
-
-```bash
-npm version patch  # or minor/major
-git push --tags    # triggers GitHub Actions
-```
 
 ## 📄 License
 
